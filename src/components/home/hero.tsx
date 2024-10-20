@@ -7,10 +7,6 @@ import people from '../../assets/icons/people.png'
 import { Button, Input } from "@material-tailwind/react";
 export const Hero = () => {
     return (<>
-    
-
-
-   
 
         <div className="w-full min-h-screen lg:flex justify-center items-center bg-secondary  rounded-b-2xl pt-24 pb-16 " >
 
