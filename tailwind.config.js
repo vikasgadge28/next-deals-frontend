@@ -10,7 +10,9 @@ export default withMT({
     colors:{
       "primary":"#F4F4F4",
       'secondary':"#0055F1",
-      "accent":"#FFC003"
+      "accent":"#FFC003",
+      "secondaryBlue": "#EAF1FF"
+
     },
     fontFamily: {
       sans:['outfit']

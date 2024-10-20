@@ -6,6 +6,7 @@ import { Hotel } from "./views/hotel"
 import { Land } from "./views/land"
 import { Footer } from "./components/footer"
 import { About } from "./views/about"
+import { Contact } from "./views/contact"
 
 
 
@@ -26,7 +27,7 @@ const router = createBrowserRouter([
     {path:'projects', element:<Project/>},
     {path:'hotels', element:<Hotel/>},
     {path:'lands', element:<Land/>},
-    {path:'contact', element:<a href="/">project</a>},
+    {path:'contact', element:<Contact/>},
 
   ]},
   

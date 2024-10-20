@@ -7,7 +7,7 @@ export const Header = ()=>{
     console.log(path)
 
     return (
-        <div className="w-full absolute h-fit bg-primary flex items-center justify-between py-2 px-8 rounded-b-xl">
+        <div className="w-full  h-fit  bg-primary flex items-center justify-between py-2 px-8 rounded-b-xl ">
             <img src={logo} className='w-[150px]'></img>
 
             <ul className=' space-x-8 hidden md:flex lg:flex items-center'>

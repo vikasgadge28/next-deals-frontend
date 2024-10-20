@@ -17,8 +17,8 @@ export const Footer = ()=>{
                 <div className='col-span-1 grid grid-cols-2 lg:grid-cols-1  gap-4'>
                     <div>
                         <h1>Our socials</h1>
-                        <div className='flex gap-2 '>
-                            <img src={fb} className='w-8 h-8'></img>
+                        <div className='flex gap-2 '><img src={fb} className='w-8 h-8'></img>
+                            
                             <img src={insta} className='w-8 h-8'></img>
                             <img src={linkedin} className='w-8 h-8'></img>
                             <img src={youtube} className='w-8 h-8'></img>
