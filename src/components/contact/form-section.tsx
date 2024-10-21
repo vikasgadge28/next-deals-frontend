@@ -1,4 +1,6 @@
 /** @format */
+import officeAddress from '../../assets/icons/officeAddress.png'
+import calling from '../../assets/calling.png'
 
 import {
   Card,
@@ -22,10 +24,10 @@ export const FormSection = () => {
           <Typography variant="h5" color="blue-gray" className="mb-2">
             Support
           </Typography>
-          <Typography color="blue-gray">
-            <span role="img" aria-label="phone">
-              📞
-            </span>{" "}
+          <Typography color="blue-gray" className = 'flex items-center'>
+           
+            < img src={calling} className='w-[1.3vw] h-[1.3vw] mr-2'></img>
+           {" "}
             011-69290723
           </Typography>
           <Typography color="blue-gray">
@@ -45,7 +47,9 @@ export const FormSection = () => {
           <Typography variant="h5" color="blue-gray" className="mb-2">
             Corporate office
           </Typography>
-          <Typography color="blue-gray" variant="p">
+          <Typography color="blue-gray" variant="p" className= "flex "> 
+          < img src={officeAddress} className='w-[1.3vw] h-[1.3vw] mr-2'></img>
+          {" "}
             Nextopson, C1 Indus Apartment, Shahpura, Bhopal, Madhya
             Pradesh-462026 support@nextopson.in
           </Typography>

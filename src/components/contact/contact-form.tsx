@@ -25,7 +25,7 @@ export const ContactForm = () => {
           <div className=" absolute w-[54vw]  ">
             <h4 className="py-2">message/query</h4>
             <div >
-              <Input className="h-20" type="tel" label="Enter your message/query"></Input>
+              <Input className="h-[15vh]  w-[54vw]" type="tel" label="Enter your message/query"></Input>
             </div>
           </div>
         </div>
