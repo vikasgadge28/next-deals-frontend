@@ -32,7 +32,7 @@ export const TeamMembers = () => {
       <div className="grid grid-cols-1 gap-6 md:grid-cols-4">
         {data.map((member, index) => (
           <div key={index} className="">
-            <div className="w-[20vw] h-[42vh] bg-[#D9D9D9] rounded-md  mb-5">
+            <div className="w-[20vw] h-[22vw] bg-[#D9D9D9] rounded-md  mb-5">
               {" "}
             </div>
             <div className="text-secondary font-medium">
