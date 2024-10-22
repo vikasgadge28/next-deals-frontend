@@ -1,6 +1,5 @@
 /** @format */
 
-import { ContactForm } from "../components/contact/contact-form";
 import { FormSection } from "../components/contact/form-section";
 import { Testimonial } from "../components/home/testimonial";
 
